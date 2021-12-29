@@ -1,0 +1,19 @@
+{
+  "name": "plugin-autoaccept",
+  "version": "0.0.0",
+  "private": true,
+  "scripts": {
+    "postinstall": "flex-plugin pre-script-check"
+  },
+  "dependencies": {
+    "@emotion/react": "^11.7.1",
+    "@emotion/styled": "^11.6.0",
+    "react": "^16.8.0",
+    "react-dom": "^16.8.0",
+    "flex-plugin-scripts": "4.2.2"
+  },
+  "devDependencies": {
+    "@twilio/flex-ui": "^1",
+    "react-test-renderer": "^16.8.0"
+  }
+}
